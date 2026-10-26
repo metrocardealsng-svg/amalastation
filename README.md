@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33948579/README.md)
 # Amala Station
 
 Website for Amala Station, Jolly J's Bakery & Restaurant.
@@ -26,7 +25,11 @@ Open `app.js` and edit the `MAINS` or `EXTRAS` lists. One line per dish.
 ## Change the phone number
 Search for `2348065971529` in `app.js` and `index.html`.
 
-## Put it online (GitHub Pages)
+## Put it online (Vercel)
+Vercel > Add New > Project > import this repo > Framework: Other > Deploy. No build command, no output folder.
+Every change you commit to `main` goes live by itself.
+
+## Or GitHub Pages
 Repo Settings > Pages > Deploy from a branch > `main` / root.
 Or import the repo into Vercel or Netlify. No settings needed.
 
